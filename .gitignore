@@ -1,0 +1,75 @@
+# Dependencias
+/node_modules
+/.pnp
+.pnp.js
+
+# Testing
+/coverage
+
+# Producción
+/build
+
+# Misceláneos
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Archivos de ambiente
+.env
+
+# Archivos de caché
+.cache
+.eslintcache
+
+# Archivos temporales
+*.tmp
+*.temp
+
+# Archivos de sistema
+Thumbs.db
+desktop.ini
+
+# Archivos de respaldo
+*.bak
+*.backup
+
+# Archivos de compilación
+*.compiled.*
+
+# Archivos de configuración local
+config.local.js
+
+# Archivos de bloqueo de paquetes (descomenta según el gestor de paquetes que uses)
+# package-lock.json
+# yarn.lock
+
+# Directorios de salida de TypeScript (si estás usando TypeScript)
+# /dist
+# /out
+
+# Archivos de cobertura de código
+*.lcov
+.nyc_output
+
+# Archivos de documentación generados automáticamente
+/docs
+
+# Archivos de despliegue
+.vercel
+.netlify
